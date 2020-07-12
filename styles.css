@@ -28,6 +28,13 @@ h1 {
   font-size: 35px;
 }
 
+.h1-style {
+  color: #00bfa5;
+  letter-spacing: -.05em;
+  font-weight: 500;
+  font-size: 35px;
+}
+
 .mdl-layout__drawer-button {
   display: none;
 }
@@ -36,8 +43,8 @@ h1 {
   color: #424242;
 }
 
-.mdl-layout__header-row .mdl-navigation {
-  /* margin-left: 400px; */
+.mdl-navigation {
+  justify-content: flex-end;
 }
 
 .mdl-layout__header-row {
@@ -123,7 +130,9 @@ h1 {
 .android-screen-section {
   position: relative;
   padding-bottom: 80px;
-  background-color: aqua;
+  /* background-color: aqua; */
+  background-color: #ffffff;
+  height:400px;
 }
 
 .android-footer a:hover {
@@ -170,12 +179,12 @@ h1 {
   .android-mobile-title {
     display: block !important;
     position: fixed;
-    left: calc(50% - 85px);
+    left: calc(50% - 70px);
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .android-be-together-section {
-    height: 250px;
+    height: 400px;
   }
 
   .android-slogan {
