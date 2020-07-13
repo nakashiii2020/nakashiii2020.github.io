@@ -27,7 +27,7 @@
 
 .space {
   height: 5px;
-  margin-top: 24px;
+  margin-top: 40px;
 }
 /* 動作確認用 */
 
@@ -167,6 +167,10 @@ p {
   /* background-color: aqua; */
   background-color: #ffffff;
   height:800px;
+}
+
+.android-screen-section.about {
+  height:500px;
 }
 
 .android-footer a:hover {
