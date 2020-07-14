@@ -163,14 +163,12 @@ p {
 
 .android-screen-section {
   position: relative;
-  /* padding-bottom: 80px; */
-  /* background-color: aqua; */
   background-color: #ffffff;
-  height:800px;
+  height:600px;
 }
 
 .android-screen-section.about {
-  height:500px;
+  height:400px;
 }
 
 .android-footer a:hover {
@@ -229,7 +227,13 @@ p {
     left: calc(50% - 70px);
     transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
-
+  .android-screen-section {
+    height:800px;
+  }
+  
+  .android-screen-section.about {
+    height:500px;
+  }
   .android-be-together-section {
     height: 400px;
     text-align: left;
